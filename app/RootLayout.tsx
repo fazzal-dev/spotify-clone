@@ -5,6 +5,7 @@ import ModalProvider from "@/providers/ModalProvider";
 import ToasterProvider from "@/providers/ToasterProvider";
 import getSongsByUserId from "@/actions/getSongsByUserId";
 import { font } from "./layout";
+import Player from "@/components/Player";
 
 export default async function RootLayout({
   children,
